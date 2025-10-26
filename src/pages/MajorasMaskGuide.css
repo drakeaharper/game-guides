@@ -1,0 +1,156 @@
+.guide {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.guide-header {
+  margin-bottom: 3rem;
+}
+
+.back-btn {
+  background: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background: #4f46e5;
+  color: white;
+}
+
+.guide-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1e293b;
+}
+
+.guide-header h2 {
+  font-size: 1.5rem;
+  color: #64748b;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.progress {
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.progress-text {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  color: #1e293b;
+}
+
+.progress-bar {
+  height: 24px;
+  background: #e2e8f0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4f46e5, #6366f1);
+  transition: width 0.3s ease;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.3);
+}
+
+.masks-section {
+  margin-bottom: 3rem;
+}
+
+.masks-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1e293b;
+  border-bottom: 3px solid #4f46e5;
+  padding-bottom: 0.5rem;
+}
+
+.masks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.mask-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.mask-item:hover {
+  border-color: #4f46e5;
+  background: #f8fafc;
+  box-shadow: 0 2px 4px rgba(79, 70, 229, 0.1);
+}
+
+.mask-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #4f46e5;
+}
+
+.mask-item span {
+  font-size: 1rem;
+  color: #475569;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.mask-item span.collected {
+  color: #4f46e5;
+  font-weight: 600;
+  text-decoration: line-through;
+  text-decoration-color: #4f46e5;
+}
+
+.guide-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e2e8f0;
+  text-align: center;
+}
+
+.guide-footer p {
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.guide-footer a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.guide-footer a:hover {
+  text-decoration: underline;
+}
+
+.tip {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #64748b;
+}
