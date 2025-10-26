@@ -37,11 +37,25 @@ npm run preview
 
 ## Deployment
 
-This project is configured for GitHub Pages deployment. The built files will be served from the `dist` directory.
+This project uses **GitHub Actions** for automatic deployment to GitHub Pages.
 
-To deploy:
-1. Build the project: `npm run build`
-2. Deploy the `dist` folder to GitHub Pages
+### Automatic Deployment
+Every push to the `main` branch automatically triggers a build and deployment workflow. No manual steps required!
+
+### First-Time Setup
+To enable GitHub Pages for your repository:
+1. Go to your repository on GitHub: `https://github.com/drakeaharper/game-guides`
+2. Navigate to **Settings** > **Pages**
+3. Under "Source", select **GitHub Actions**
+4. Push this code to the `main` branch - the workflow will run automatically
+
+The site will be live at: `https://drakeaharper.github.io/game-guides/`
+
+### Manual Deployment (if needed)
+You can also trigger deployment manually:
+1. Go to the **Actions** tab in your GitHub repository
+2. Select the "Deploy to GitHub Pages" workflow
+3. Click "Run workflow"
 
 ## Project Structure
 
