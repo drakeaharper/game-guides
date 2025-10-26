@@ -2,6 +2,10 @@
 
 A client-side React application for creating and managing personal game guides. Built for deployment on GitHub Pages with local storage for data persistence.
 
+## 🎮 [Live Demo](https://drakeaharper.github.io/game-guides/)
+
+Visit the live app: **https://drakeaharper.github.io/game-guides/**
+
 ## Features
 
 - Client-side only application (no backend required)
